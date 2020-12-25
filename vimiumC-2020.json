@@ -1,0 +1,55 @@
+{
+	"name": "Vimium C",
+	"@time": "12/25/2020, 1:16:17 PM",
+	"time": 1608873377149,
+	"environment": {
+		"extension": "1.87.2",
+		"platform": "linux",
+		"chrome": 87
+	},
+	"exclusionRules": [
+		{
+			"pattern": ":https://mail.google.com/",
+			"passKeys": ""
+		},
+		{
+			"pattern": ":https://www.youtube.com/",
+			"passKeys": "c x z "
+		},
+		{
+			"pattern": ":https://www.bilibili.com/",
+			"passKeys": "c x z "
+		},
+		{
+			"pattern": ":https://github.com/",
+			"passKeys": "t "
+		},
+		{
+			"pattern": "^https?://localhost:8888/",
+			"passKeys": ""
+		},
+		{
+			"pattern": ":https://www.coursera.org/",
+			"passKeys": "c x z "
+		},
+		{
+			"pattern": ":https://www.lanqiao.cn/",
+			"passKeys": ""
+		},
+		{
+			"pattern": "^https?://127\\.0\\.0\\.1:8888/",
+			"passKeys": ""
+		},
+		{
+			"pattern": "^https?://127\\.0\\.0\\.1:8889/",
+			"passKeys": ""
+		},
+		{
+			"pattern": ":https://drive.p3terx.com/",
+			"passKeys": "c x z "
+		}
+	],
+	"grabBackFocus": true,
+	"keyMappings": "map <a-g> createTab url=\"https://github.com\"",
+	"localeEncoding": "utf-8"
+}
